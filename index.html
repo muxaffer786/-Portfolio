@@ -1,95 +1,128 @@
-<!-- ================= INDEX.HTML ================= -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muzaffer Ali Khan | Portfolio</title>
+  <title>Muzaffer A. Khan | Portfolio</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ================= HERO ================= -->
 <header class="hero">
-  <img src="profile.jpg" class="profile-img">
-  <h1>Muzaffer Ali Khan</h1>
-  <p>B.Sc IT Student | Future Software Developer</p>
+  <img src="profile.jpg" alt="Profile Photo">
+  <h1>Muzaffer A. Khan</h1>
+  <p>Building modern web applications with clean design & real-world functionality</p>
+
   <div>
     <a href="resume.pdf" class="btn" download>Download Resume</a>
     <a href="#contact" class="btn">Hire Me</a>
   </div>
 </header>
 
-<nav class="navbar">
-  <a href="#about"> About   </a>
-  <a href="#skills"> Skills   </a>
-  <a href="#projects"> Projects   </a>
-  <a href="#contact"> Contact   </a>
-</nav>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section fade">
+  <h2>About Me</h2>
+  <p>
+    I am a dedicated B.Sc Information Technology student with a strong interest in software development and modern web technologies. I focus on building clean, responsive, and user-friendly applications while continuously improving my technical and problem-solving skills.
 
+    I have hands-on experience with technologies like HTML, CSS, JavaScript, C/C++, and Python, along with version control tools such as Git and GitHub. I enjoy turning ideas into practical solutions and learning new technologies to stay updated in the fast-growing IT field.
 
-<p>I am a dedicated B.Sc Information Technology student with a strong interest in software development and modern web technologies. I focus on building clean, responsive, and user-friendly applications while continuously improving my technical and problem-solving skills.</p>
- <p> I have hands-on experience with technologies like HTML, CSS, JavaScript, C/C++, and Python, along with version control tools such as Git and GitHub. I enjoy turning ideas into practical solutions and learning new technologies to stay updated in the fast-growing IT field.</p>
-  <p> I am a disciplined and goal-oriented individual, currently balancing my academic journey with skill development and career preparation. My aim is to contribute to impactful projects, gain real-world experience, and grow into a skilled IT professional.</p>
+    I am a disciplined and goal-oriented individual, currently balancing my academic journey with skill development and career preparation. My aim is to contribute to impactful projects, gain real-world experience, and grow into a skilled IT professional.
+  </p>
+</section>
 
-  
+<!-- ================= SKILLS ================= -->
 <section id="skills" class="section fade">
   <h2>Skills</h2>
   <div class="skills">
-    <span>HTML</span><span>CSS</span><span>JavaScript</span>
-    <span>Python</span><span>C++</span><span>GitHub</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Python</span>
+    <span>C++</span>
+    <span>Git</span>
+    <span>GitHub</span>
   </div>
 </section>
 
+<!-- ================= PROJECTS ================= -->
 <section id="projects" class="section fade">
   <h2>Projects</h2>
-  <div class="project">
-    <h3>  Portfolio Website  </h3>
-    <p>Modern responsive portfolio</p>
-  </div>
-  <div class="project">
-    <h3>Calculator</h3>
-    <p>JS based calculator</p>
+
+  <div class="projects">
+
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Modern responsive personal portfolio built using HTML, CSS and JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h3>Calculator App</h3>
+      <p>Interactive calculator using JavaScript with clean UI.</p>
+    </div>
+
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>Task management application with local storage functionality.</p>
+    </div>
+
   </div>
 </section>
 
+<!-- ================= CONTACT ================= -->
 <section id="contact" class="section fade">
   <h2>Contact</h2>
 
   <div class="contact-info">
-    <p>📧 Email: 
+
+    <p>📧 Email:
       <a href="mailto:muzafferkhan2023@gmail.com">
-           muzafferkhan2023@gmail.com
+        muzafferkhan2023@gmail.com
       </a>
     </p>
 
-    <p>📱 Phone: 
+    <p>📱 Phone:
       <a href="tel:+919541398720">
-            +91 9541398720
+        +91 9541398720
       </a>
     </p>
 
-    <p>📸 Instagram: 
+    <p>📸 Instagram:
       <a href="https://instagram.com/_withmuxaffer" target="_blank">
-            @_withmuxaffer
+        @_withmuxaffer
       </a>
     </p>
 
-    <p>💻 GitHub: 
+    <p>💻 GitHub:
       <a href="https://github.com/muxaffer786" target="_blank">
-            github.com/muxaffer786
+        github.com/muxaffer786
       </a>
     </p>
+
   </div>
 </section>
 
-  
-  
-
+<!-- ================= FOOTER ================= -->
 <footer>
-  <p>© 2026 Muzaffer Khan</p>
+  <p>© 2026 Muzaffer A. Khan | All Rights Reserved</p>
 </footer>
 
+<!-- JS -->
+<script src="script.js"></script>
 
-
-<!-- ================= END OF INDEX.HTML ================= -->
+</body>
+</html>
